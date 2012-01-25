@@ -1,0 +1,1 @@
+require 'oauth-rest-security'
