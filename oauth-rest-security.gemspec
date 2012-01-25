@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Maximiliano Dello Russo"]
   s.email       = ["maxidr@gmail.com"]
   #s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of OauthRestSecurity."
+  s.summary     = "Summary of OauthRestSecurity."
   #s.description = "TODO: Description of OauthRestSecurity."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
