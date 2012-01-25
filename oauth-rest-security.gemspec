@@ -24,4 +24,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec-rails'
   s.add_development_dependency 'yard'
   s.add_development_dependency 'rest-client'
+
+  s.require_paths = ["lib"]
 end
