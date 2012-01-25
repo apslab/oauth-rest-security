@@ -7,11 +7,11 @@ require "oauth-rest-security/version"
 Gem::Specification.new do |s|
   s.name        = "oauth-rest-security"
   s.version     = OauthRestSecurity::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
+  s.authors     = ["Maximiliano Dello Russo"]
+  s.email       = ["maxidr@gmail.com"]
+  #s.homepage    = "TODO"
   s.summary     = "TODO: Summary of OauthRestSecurity."
-  s.description = "TODO: Description of OauthRestSecurity."
+  #s.description = "TODO: Description of OauthRestSecurity."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
