@@ -13,14 +13,16 @@ Gem::Specification.new do |s|
   s.summary     = "Summary of OauthRestSecurity."
   #s.description = "TODO: Description of OauthRestSecurity."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  #s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["app/**/*", "lib/**/*", "config/**/*", "MIT-LICENSE", "README.rdoc"]
 
   s.add_dependency "rails", "~> 3.1.3"
   s.add_dependency 'rest-client'
   s.add_dependency 'oauth'
   s.add_dependency 'omniauth'
   s.add_dependency 'omniauth-oauth2'
-
+  
+  s.add_development_dependency 'rails', '~> 3.1.3'
   s.add_development_dependency "sqlite3"
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'rspec-rails'

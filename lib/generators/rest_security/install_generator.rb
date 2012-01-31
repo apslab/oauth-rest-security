@@ -21,6 +21,12 @@ module RestSecurity
       template 'services.yml', 'config/services.yml'
     end
 
+    def add_user_session_controller_routes
+      route "match '/auth/:provider/callback', :to => 'user_session#create'"
+      route "match '/auth/failure', :to => 'user_session#failure'"
+      route "match '/logout', :to => 'user_session#destroy'"
+    end
+
     def show_readme
       readme 'README' if behavior == :invoke
     end
